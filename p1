@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Bootstrap 4 Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>2020東東</title>
+</head>
+
+<body>
+
+    <div class="col">
+        <!-- style="display:none"-->
+        <div class="row  d-flex justify-content-center mt-3 mb-2"><font color="gray">
+                <h3 >東東2020情人節禮物</h3>
+            </font></div>
+
+        <div class="row mb-3  d-flex justify-content-center">
+            <img id="img1" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg1()" accesskey="" src="https://i.imgur.com/3RBcR9C.jpg" alt="Responsive image" />
+
+            <img id="img2" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg2()" src="https://i.imgur.com/9Ce0iVw.jpg" alt="Responsive image">
+            <img id="img3" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg3()" src="https://i.imgur.com/3a1NjHw.jpg" alt="Responsive image">
+            <img id="img4" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg4()" src="https://i.imgur.com/NzeFQrd.jpg" alt="Responsive image">
+        </div>
+        <div class="row mb-3 d-flex justify-content-center">
+            <img id="img5" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg5()" src="https://i.imgur.com/gWlLsxu.jpg" alt="Responsive image">
+            <img id="img6" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg6()" src="https://i.imgur.com/Zw4qcGN.jpg" alt="Responsive image">
+            <img id="img7" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg7()" src="https://i.imgur.com/ZGcwSl8.jpg" alt="Responsive image">
+            <img id="img8" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg8()" src="https://i.imgur.com/CSsfREq.jpg" alt="Responsive image">
+        </div>
+        <div class="row mb-3 d-flex justify-content-center">
+            <img id="img9" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg9()" src="https://i.imgur.com/j9tmBFi.jpg" alt="Responsive image">
+            <img id="img10" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg10()" src="https://i.imgur.com/3czPm3J.jpg" alt="Responsive image">
+            <img id="img11" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg11()" src="https://i.imgur.com/vGcjZRF.jpg" alt="Responsive image">
+            <img id="img12" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg12()" src="https://i.imgur.com/pQ3QGxu.jpg" alt="Responsive image">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <img id="img13" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg13()" src="https://i.imgur.com/Bk05u0m.jpg" alt="Responsive image">
+            <img id="img14" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg14()" src="https://i.imgur.com/IlrRHoV.jpg" alt="Responsive image">
+            <img id="img15" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg15()" src="https://i.imgur.com/JogohAa.jpg" alt="Responsive image">
+            <img id="img16" style="height: 10%;width: 10%" class="mx-2" onclick="Cimg16()" src="https://i.imgur.com/ZwPyO41.jpg" alt="Responsive image">
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+                <a id="theend" style="display: none" class=" btn btn-outline-secondary mt-3" href="./p0.html" >關閉禮物/再玩一次</a>
+    </div>
+    <script>
+        var x = [] //用1-16
+        function Cimg1() {
+            $('#img1').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/p960x960/85131299_1077507045917725_3014384434049712128_o.jpg?_nc_cat=110&_nc_ohc=D-E44FAZVAoAX_-Y7o_&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=7411045e4ac56c91ba62287e6ee6c9c1&oe=5EC6541D')
+            if (x[1] != 1) {
+                x[1] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg2() {
+            $('#img2').attr('src', 'https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/p960x960/86319961_1077511895917240_2305862864847503360_o.jpg?_nc_cat=101&_nc_ohc=3EUI9QSMzOgAX_LDLK5&_nc_ht=scontent.ftpe1-3.fna&_nc_tp=6&oh=69f4a091a909a712e1933977f9f2e498&oe=5EB6925B')
+            if (x[2] != 1) {
+                x[2] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg3() {
+            $('#img3').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/84874188_1077511865917243_3302502668605325312_n.jpg?_nc_cat=104&_nc_ohc=N5pyJVL-5pMAX8lXjjo&_nc_ht=scontent.ftpe1-1.fna&oh=7a3a3481f33727bcc9ed630d3af5148c&oe=5EFCF4A9')
+            if (x[3] != 1) {
+                x[3] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg4() {
+            $('#img4').attr('src', 'https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/86260591_1077511845917245_1916465397326938112_n.jpg?_nc_cat=109&_nc_ohc=_ht1_ev4Li4AX_HJ0lj&_nc_ht=scontent.ftpe1-2.fna&oh=de3f576002c1ef60a3d526d5486f618e&oe=5F004EEC')
+            if (x[4] != 1) {
+                x[4] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg5() {
+            $('#img5').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/p960x960/85118134_1077511939250569_7397402803045400576_o.jpg?_nc_cat=110&_nc_ohc=Br5xzdptO14AX8hqqo-&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=5cfc7bff42455ea1873f4765e00f97e0&oe=5EB952B3')
+            if (x[5] != 1) {
+                x[5] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg6() {
+            $('#img6').attr('src', 'https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/83970643_1077511922583904_8202841400203542528_n.jpg?_nc_cat=108&_nc_ohc=Ug3EU06jSzYAX8468z4&_nc_ht=scontent.ftpe1-2.fna&oh=d52aec1b5c1b01fb4f7540ab78e8a491&oe=5EFD4334')
+            if (x[6] != 1) {
+                x[6] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg7() {
+            $('#img7').attr('src', 'https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/p960x960/86343591_1077511975917232_3772308323408281600_o.jpg?_nc_cat=108&_nc_ohc=l-kGv1hkAycAX_XWUrF&_nc_ht=scontent.ftpe1-2.fna&_nc_tp=6&oh=414b942baea6c3d18f74ba79f33f7e65&oe=5EC60BB7')
+            if (x[7] != 1) {
+                x[7] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg8() {
+            $('#img8').attr('src', 'https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/p960x960/84185320_1077512052583891_9062920987913224192_o.jpg?_nc_cat=103&_nc_ohc=zzQzxHpNUW0AX9S38GN&_nc_ht=scontent.ftpe1-2.fna&_nc_tp=6&oh=0470d19cd0871a05a77dbfefe9110d5b&oe=5EB51174')
+            if (x[8] != 1) {
+                x[8] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg9() {
+            $('#img9').attr('src', 'https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/p960x960/84358907_1077512105917219_2679223950981988352_o.jpg?_nc_cat=105&_nc_ohc=ged71ucMnBQAX8X_5cr&_nc_ht=scontent.ftpe1-3.fna&_nc_tp=6&oh=c65b5f44c586cd42f4a0d861c5affd6c&oe=5EB5AF02')
+            if (x[9] != 1) {
+                x[9] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg10() {
+            $('#img10').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/p960x960/85012101_1077512135917216_885092725622308864_o.jpg?_nc_cat=110&_nc_ohc=CzaHNiKoSmgAX9suvC8&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=ba2865d1690ff2e508f49007bc571f8b&oe=5ED0E8F9')
+            if (x[10] != 1) {
+                x[10] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg11() {
+            $('#img11').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/p960x960/84844423_1077512215917208_2886590791713554432_o.jpg?_nc_cat=102&_nc_ohc=4z22WFuEcHwAX8zXp8u&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=4ba0b9e405ccd164b5e83cf001cce15c&oe=5EC6CCB3')
+            if (x[11] != 1) {
+                x[11] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg12() {
+            $('#img12').attr('src', 'https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/p960x960/85045865_1077512262583870_9022171300281450496_o.jpg?_nc_cat=101&_nc_ohc=_a2itSxCoIsAX-qi54H&_nc_ht=scontent.ftpe1-3.fna&_nc_tp=6&oh=39b9cb7b6853e8071bed2cce24c98383&oe=5ECD2AEB')
+            if (x[12] != 1) {
+                x[12] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg13() {
+            $('#img13').attr('src', 'https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/84157305_1077512225917207_1523725350033424384_n.jpg?_nc_cat=107&_nc_ohc=RlZoKljjekQAX-WPbrv&_nc_ht=scontent.ftpe1-3.fna&oh=7afe4ae85eb1bc36054063123c79c2f1&oe=5ED42CAC')
+            if (x[13] != 1) {
+                x[13] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg14() {
+            $('#img14').attr('src', 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/p960x960/84455798_1077512409250522_6007038730173415424_o.jpg?_nc_cat=110&_nc_ohc=SykAussZdPIAX_oAb7R&_nc_ht=scontent.ftpe1-1.fna&_nc_tp=6&oh=243721a1346d419ecafabdf3b287e946&oe=5EBC6A65')
+            if (x[14] != 1) {
+                x[14] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg15() {
+            $('#img15').attr('src', 'https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/85053742_1077512352583861_2436742651639234560_n.jpg?_nc_cat=100&_nc_ohc=0YWJ0-QL-fYAX8NGe3s&_nc_ht=scontent.ftpe1-2.fna&oh=7d011871e3cfa50d950408f1300df4d8&oe=5ED3E56B')
+            if (x[15] != 1) {
+                x[15] = 1
+                Cimg()
+            }
+        }
+
+        function Cimg16() {
+            $('#img16').attr('src', 'https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/p960x960/86453003_1077512485917181_1427581961651617792_o.jpg?_nc_cat=105&_nc_ohc=O9nTPU30tKoAX8T8VyO&_nc_ht=scontent.ftpe1-3.fna&_nc_tp=6&oh=8196f6fb42d1f4e1cde8b99fb09e2634&oe=5EC1F533')
+            if (x[16] != 1) {
+                x[16] = 1
+                Cimg()
+            }
+        }
+        var y = 0
+
+        function Cimg() {
+            y++
+            console.log(y)
+            if (y == 3) {
+                setTimeout("f1()", 1000)
+
+
+            }
+        }
+        var imgsrc = "https://i.imgur.com/9QHE5AS.jpg"
+        var f2end = 0
+
+        function f1() {
+            for (var i = 1; i <= 16; i++)
+                $('#img' + i).attr('src', imgsrc)
+            if (f2end == 0)
+                setTimeout("f2()", 1000)
+            else
+                setTimeout("f3()", 1000)
+        }
+
+
+
+        function f2() {
+            if (imgsrc == "https://i.imgur.com/9QHE5AS.jpg")
+                imgsrc = "https://i.imgur.com/du47aoT.jpg"
+            else if (imgsrc == "https://i.imgur.com/du47aoT.jpg")
+                imgsrc = "https://i.imgur.com/ab267EG.jpg"
+            else if (imgsrc == "https://i.imgur.com/ab267EG.jpg")
+                imgsrc = "https://i.imgur.com/4BnSiaG.jpg"
+            else if (imgsrc = "https://i.imgur.com/4BnSiaG.jpg") {
+                imgsrc = "https://i.imgur.com/9QHE5AS.jpg"
+                f2end = 1
+            }
+            setTimeout("f1()", 1000)
+        }
+
+        function f3() {
+            for (var i = 1; i <= 4; i++)
+                $('#img' + i).attr('src', 'https://i.imgur.com/ze9wCDE.jpg')
+            for (var i = 13; i <= 16; i++)
+                $('#img' + i).attr('src', 'https://i.imgur.com/ze9wCDE.jpg')
+            $('#img5').attr('src', 'https://i.imgur.com/CLFAuW2.jpg')
+            $('#img6').attr('src', 'https://i.imgur.com/CLFAuW2.jpg')
+            $('#img7').attr('src', 'https://i.imgur.com/qeA7Cp2.jpg')
+            $('#img8').attr('src', 'https://i.imgur.com/v6SoQ11.jpg')
+            $('#img9').attr('src', 'https://i.imgur.com/XBmISb7.jpg')
+            $('#img10').attr('src', 'https://i.imgur.com/7uAltqQ.jpg')
+            $('#img11').attr('src', 'https://i.imgur.com/osSxAt3.jpg')
+            $('#img12').attr('src', 'https://i.imgur.com/tzCYeyZ.jpg')
+            setTimeout("f4()", 3000)
+
+        }
+        
+        function f4() {
+            for (var i = 1; i <= 4; i++)
+                $('#img' + i).attr('src', 'https://i.imgur.com/5kroQuW.jpg')
+            for (var i = 13; i <= 16; i++)
+                $('#img' + i).attr('src', 'https://i.imgur.com/5kroQuW.jpg')
+            $('#img5').attr('src', 'https://i.imgur.com/TIr2VLE.jpg')
+            $('#img6').attr('src', 'https://i.imgur.com/RWF9Rzz.jpg')
+            $('#img7').attr('src', 'https://i.imgur.com/Fpi8cN6.jpg')
+            $('#img8').attr('src', 'https://i.imgur.com/5kroQuW.jpg')
+            $('#img9').attr('src', 'https://i.imgur.com/5kroQuW.jpg')
+            $('#img10').attr('src', 'https://i.imgur.com/eM5HJWO.jpg')
+            $('#img11').attr('src', 'https://i.imgur.com/ceqRzQq.jpg')
+            $('#img12').attr('src', 'https://i.imgur.com/f9dzvlG.jpg')
+             setTimeout("f5()", 3000)
+
+        }
+        function f5() {
+            $('#theend').attr('style', '')
+            
+        }
+
+
+
+        /*if (document.cookie == "") { //現在沒有登入！
+                    $('#img1').append('登入')
+                    $('#idSign').attr('onclick', '')
+                    $('#idSign').attr('href', './login.html')
+                    $('#idSignIcon').attr('class', 'fas fa-sign-in-alt')
+                    $('#idScart').attr('href', '')
+                    $('#idScart').attr('onclick', 'clkScartOrPerson()')
+                    $('#idPerson').attr('href', '')
+                    $('#idPerson').attr('onclick', 'clkScartOrPerson()')
+        }*/
+
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
